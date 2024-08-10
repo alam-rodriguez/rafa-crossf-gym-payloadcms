@@ -27,4 +27,4 @@ const start = async () => {
   app.listen(3000);
 };
 
-start();
+export default start();

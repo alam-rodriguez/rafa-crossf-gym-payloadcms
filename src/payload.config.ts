@@ -18,6 +18,10 @@ import { PersonalsTrainers } from "./collections/PersonalsTrainers";
 import CasosDeExitos from "./blogals/pages/beneficios/CasosDeExitos";
 import blogsYNoticias from "./blogals/pages/connect/blogsYNoticias";
 import { Videos } from "./collections/videos";
+import InicioInteligente from "./blogals/pages/entrenamientos/InicioInteligente";
+import Estiramiento from "./blogals/pages/entrenamientos/Estiramiento";
+import MenteYCuerpo from "./blogals/pages/entrenamientos/MenteYCuerpo";
+import Relajamiento from "./blogals/pages/entrenamientos/Relajamiento";
 
 export default buildConfig({
   admin: {
@@ -28,7 +32,7 @@ export default buildConfig({
   // collections: [Users],
   // globals: [],
   collections: [Users, Media, Videos, PersonalsTrainers],
-  globals: [MainInformation, Cards, ComodidadesPage, LimpiezaYSeguridadPage, CasosDeExitos, blogsYNoticias],
+  globals: [MainInformation, Cards, ComodidadesPage, LimpiezaYSeguridadPage, CasosDeExitos, blogsYNoticias, InicioInteligente, Estiramiento, MenteYCuerpo, Relajamiento],
   typescript: {
     outputFile: path.resolve(__dirname, "payload-types.ts"),
   },

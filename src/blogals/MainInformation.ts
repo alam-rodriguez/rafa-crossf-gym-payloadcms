@@ -42,6 +42,32 @@ const MainInformation: GlobalConfig = {
       relationTo: "videos", // required
       required: true,
     },
+    {
+      name: "redes",
+      type: "group",
+      fields: [
+        {
+          name: "facebook",
+          type: "text",
+        },
+        {
+          name: "youtube",
+          type: "text",
+        },
+        {
+          name: "instagram",
+          type: "text",
+        },
+        {
+          name: "tiktok",
+          type: "text",
+        },
+        {
+          name: "whatsapp",
+          type: "text",
+        },
+      ],
+    },
   ],
   access: {
     read: () => true,
